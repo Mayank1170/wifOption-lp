@@ -38,12 +38,12 @@ const SwapForm = () => {
                         </div>
                     </div>
                     <div className='flex justify-between bg-[#313131] p-3 rounded-[18px]'>
-                        <div>
+                        <div className='w-[50%]'>
                             <input className='text-[22px] font-medium bg-transparent border-none outline-none' placeholder='2' />
                             <h1 className='text-[14px] text-[#7C7C7C]'>~$318.14</h1>
                         </div>
-                        <div className='relative flex flex-col gap-3 justify-end items-end'>
-                            <div className='w-[fit] flex gap-2 justify-around items-center  bg-[#545452] text-[16px] font-medium text-white px-2 py-[5px] rounded-full cursor-pointer' onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
+                        <div className='w-[50%] relative flex flex-col gap-3 justify-end items-end'>
+                            <div className='w-fit flex gap-2 justify-around items-center  bg-[#545452] text-[16px] font-medium text-white px-2 py-[5px] rounded-full cursor-pointer' onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
                                 <img src='./assets/solLogo.svg' width={20} height={20} alt='Logo' />
                                 <span>{selectedOption}</span>
                                 <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -73,7 +73,7 @@ const SwapForm = () => {
                             <h1 className='text-[14px] text-[#7C7C7C]'>~$318.02</h1>
                         </div>
                         <div className='flex flex-col gap-3 justify-end items-end'>
-                            <div className='w-[fit] flex gap-4 justify-around items-center  bg-[#545452] text-[16px] font-medium text-white px-2 py-[5px] rounded-full cursor-pointer' onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
+                            <div className='w-[fit] flex gap-4 justify-around items-center  bg-[#545452] text-[16px] font-medium text-white px-2 py-[5px] rounded-full cursor-pointer'>
                                 <img src='./assets/wifLogo.svg' width={20} height={20} alt='Logo' />
                                 <span>WIF</span>
                             </div>
@@ -82,7 +82,7 @@ const SwapForm = () => {
                     </div>
                 </div>
                 <div
-                    className='w-full flex flex-row justify-center gap-[34px] rounded-full px-6 py-2'
+                    className='w-full my-4 flex flex-row justify-center gap-[34px] rounded-full px-6 py-2'
                     style={{
                         backgroundImage: 'linear-gradient(to left, rgba(64, 224, 208)  0%, rgba(255, 140, 0) 50%, rgba(255, 0, 128) 100%)'
                     }}
