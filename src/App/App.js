@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div className="h-screen pt-[30px]" style={{
+    <div className="h-screen pt-[30px] overflow-hidden" style={{
       backgroundImage: 'url("./assets/wifoptionsBg.svg")',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',

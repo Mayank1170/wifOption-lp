@@ -29,7 +29,8 @@ const Navbar = () => {
                     }}
                 >
                     connect SOL wallet
-                </button>            </div>
+                </button>
+            </div>
         </div>
     )
 }
